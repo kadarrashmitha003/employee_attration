@@ -1,0 +1,105 @@
+2025-08-25 20:33:14,156 - INFO - Starting data ingestion
+2025-08-25 20:33:14,219 - INFO - Data ingestion completed successfully
+2025-08-25 20:33:14,258 - INFO - Train and test data loaded successfully
+2025-08-25 20:33:14,259 - ERROR - Pipeline failed: Error occurred in script: [C:\Users\chand\OneDrive\Desktop\MLproject\src\components\data_transformation.py] at line: [61] -> Target column 'Attrition' not found
+2025-08-25 20:38:53,063 - INFO - Starting data ingestion
+2025-08-25 20:38:53,159 - INFO - Data ingestion completed successfully
+2025-08-25 20:38:53,160 - INFO - Reading train and test CSVs
+2025-08-25 20:38:53,315 - INFO - Validating schema
+2025-08-25 20:38:53,325 - INFO - Encoding target column 'attrition'
+2025-08-25 20:38:53,355 - INFO - Fitting preprocessor on training features
+2025-08-25 20:38:53,481 - INFO - Data transformation complete. Preprocessor saved to artifacts\preprocessor.pkl
+2025-08-25 20:38:54,014 - INFO - Model trained with accuracy: 0.505
+2025-08-25 20:43:48,302 - INFO - Starting data ingestion
+2025-08-25 20:43:48,382 - INFO - Data ingestion completed successfully
+2025-08-25 20:43:48,383 - INFO - Reading train and test CSVs
+2025-08-25 20:43:48,427 - INFO - Validating schema
+2025-08-25 20:43:48,432 - INFO - Encoding target column 'attrition'
+2025-08-25 20:43:48,442 - INFO - Fitting preprocessor on training features
+2025-08-25 20:43:48,493 - INFO - Data transformation complete. Preprocessor saved to artifacts\preprocessor.pkl
+2025-08-25 20:43:48,494 - ERROR - Pipeline failed: 'ModelTrainer' object has no attribute 'initiate_model_trainer'
+2025-08-25 20:47:13,783 - INFO - Starting data ingestion
+2025-08-25 20:47:13,802 - INFO - Loaded raw dataset from rawdata/technova_attrition_dataset.csv with shape (1000, 14)
+2025-08-25 20:47:13,821 - INFO - Split data: train (800, 14), test (200, 14)
+2025-08-25 20:47:13,838 - INFO - Train/Test CSVs saved to artifacts/
+2025-08-25 20:47:13,838 - INFO - Reading train and test CSVs
+2025-08-25 20:47:13,890 - INFO - Validating schema
+2025-08-25 20:47:13,895 - INFO - Encoding target column 'attrition'
+2025-08-25 20:47:13,903 - INFO - Fitting preprocessor on training features
+2025-08-25 20:47:13,934 - INFO - Data transformation complete. Preprocessor saved to artifacts\preprocessor.pkl
+2025-08-25 20:47:13,935 - ERROR - Pipeline failed: 'ModelTrainer' object has no attribute 'initiate_model_trainer'
+2025-08-25 20:48:30,680 - INFO - Pipeline started
+2025-08-25 20:48:30,680 - INFO - Starting data ingestion
+2025-08-25 20:48:30,687 - INFO - Loaded raw dataset from rawdata/technova_attrition_dataset.csv with shape (1000, 14)
+2025-08-25 20:48:30,692 - INFO - Split data: train (800, 14), test (200, 14)
+2025-08-25 20:48:30,707 - INFO - Train/Test CSVs saved to artifacts/
+2025-08-25 20:48:30,707 - INFO - Reading train and test CSVs
+2025-08-25 20:48:30,749 - INFO - Validating schema
+2025-08-25 20:48:30,751 - INFO - Encoding target column 'attrition'
+2025-08-25 20:48:30,759 - INFO - Fitting preprocessor on training features
+2025-08-25 20:48:30,789 - INFO - Data transformation complete. Preprocessor saved to artifacts\preprocessor.pkl
+2025-08-25 20:48:30,789 - INFO - Splitting train/test arrays into features and target
+2025-08-25 20:48:30,790 - INFO - Training RandomForestClassifier
+2025-08-25 20:48:31,641 - INFO - Final Model Accuracy: 0.520
+2025-08-25 20:48:31,673 - INFO - Model saved to artifacts\model.pkl
+2025-08-25 20:48:31,675 - INFO - Pipeline completed successfully
+2025-09-03 07:10:20,574 - INFO - Pipeline started
+2025-09-03 07:10:20,574 - INFO - Starting data ingestion
+2025-09-03 07:10:20,606 - INFO - Loaded raw dataset from rawdata/technova_attrition_dataset.csv with shape (1000, 14)
+2025-09-03 07:10:20,637 - INFO - Split data: train (800, 14), test (200, 14)
+2025-09-03 07:10:20,653 - INFO - Train/Test CSVs saved to artifacts/
+2025-09-03 07:10:20,653 - INFO - Reading train and test CSVs
+2025-09-03 07:10:20,684 - INFO - Validating schema
+2025-09-03 07:10:20,684 - INFO - Encoding target column 'attrition'
+2025-09-03 07:10:20,699 - INFO - Fitting preprocessor on training features
+2025-09-03 07:10:20,715 - INFO - Data transformation complete. Preprocessor saved to artifacts\preprocessor.pkl
+2025-09-03 07:10:20,731 - INFO - Splitting train/test arrays into features and target
+2025-09-03 07:10:20,731 - INFO - Training RandomForestClassifier
+2025-09-03 07:10:21,391 - INFO - Final Model Accuracy: 0.520
+2025-09-03 07:10:21,419 - INFO - Model saved to artifacts\model.pkl
+2025-09-03 07:10:21,419 - INFO - Pipeline completed successfully
+2025-09-03 07:10:24,323 - INFO - Pipeline started
+2025-09-03 07:10:24,323 - INFO - Starting data ingestion
+2025-09-03 07:10:24,323 - INFO - Loaded raw dataset from rawdata/technova_attrition_dataset.csv with shape (1000, 14)
+2025-09-03 07:10:24,333 - INFO - Split data: train (800, 14), test (200, 14)
+2025-09-03 07:10:24,333 - INFO - Train/Test CSVs saved to artifacts/
+2025-09-03 07:10:24,333 - INFO - Reading train and test CSVs
+2025-09-03 07:10:24,364 - INFO - Validating schema
+2025-09-03 07:10:24,364 - INFO - Encoding target column 'attrition'
+2025-09-03 07:10:24,364 - INFO - Fitting preprocessor on training features
+2025-09-03 07:10:24,396 - INFO - Data transformation complete. Preprocessor saved to artifacts\preprocessor.pkl
+2025-09-03 07:10:24,396 - INFO - Splitting train/test arrays into features and target
+2025-09-03 07:10:24,396 - INFO - Training RandomForestClassifier
+2025-09-03 07:10:24,910 - INFO - Final Model Accuracy: 0.520
+2025-09-03 07:10:24,932 - INFO - Model saved to artifacts\model.pkl
+2025-09-03 07:10:24,932 - INFO - Pipeline completed successfully
+2025-09-03 07:22:45,172 - INFO - Pipeline started
+2025-09-03 07:22:45,173 - INFO - Starting data ingestion
+2025-09-03 07:22:45,195 - INFO - Loaded raw dataset from rawdata/technova_attrition_dataset.csv with shape (1000, 14)
+2025-09-03 07:22:45,209 - INFO - Split data: train (800, 14), test (200, 14)
+2025-09-03 07:22:45,225 - INFO - Train/Test CSVs saved to artifacts/
+2025-09-03 07:22:45,225 - INFO - Reading train and test CSVs
+2025-09-03 07:22:45,241 - INFO - Validating schema
+2025-09-03 07:22:45,241 - INFO - Encoding target column 'attrition'
+2025-09-03 07:22:45,256 - INFO - Fitting preprocessor on training features
+2025-09-03 07:22:45,272 - INFO - Data transformation complete. Preprocessor saved to artifacts\preprocessor.pkl
+2025-09-03 07:22:45,272 - INFO - Splitting train/test arrays into features and target
+2025-09-03 07:22:45,272 - INFO - Training XGBoost Classifier
+2025-09-03 07:22:45,566 - INFO - Final Model Accuracy: 0.495
+2025-09-03 07:22:45,581 - INFO - Model saved to artifacts\model.pkl
+2025-09-03 07:22:45,581 - INFO - Pipeline completed successfully
+2025-09-03 07:25:41,427 - INFO - Pipeline started
+2025-09-03 07:25:41,427 - INFO - Starting data ingestion
+2025-09-03 07:25:41,442 - INFO - Loaded raw dataset from rawdata/technova_attrition_dataset.csv with shape (1000, 14)
+2025-09-03 07:25:41,442 - INFO - Split data: train (800, 14), test (200, 14)
+2025-09-03 07:25:41,442 - INFO - Train/Test CSVs saved to artifacts/
+2025-09-03 07:25:41,442 - INFO - Reading train and test CSVs
+2025-09-03 07:25:41,458 - INFO - Validating schema
+2025-09-03 07:25:41,458 - INFO - Encoding target column 'attrition'
+2025-09-03 07:25:41,474 - INFO - Fitting preprocessor on training features
+2025-09-03 07:25:41,489 - INFO - Data transformation complete. Preprocessor saved to artifacts\preprocessor.pkl
+2025-09-03 07:25:41,489 - INFO - Splitting train/test arrays into features and target
+2025-09-03 07:25:41,489 - INFO - Training XGBoost Classifier
+2025-09-03 07:25:41,730 - INFO - Final Model Accuracy: 0.495
+2025-09-03 07:25:41,746 - INFO - Model saved to artifacts\model.pkl
+2025-09-03 07:25:41,746 - INFO - Pipeline completed successfully

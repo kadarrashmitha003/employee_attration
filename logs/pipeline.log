@@ -1,0 +1,122 @@
+2025-08-24 23:14:49,187 - INFO - Logging system initialized
+2025-08-24 23:18:36,555 - INFO - Logging system initialized
+2025-08-24 23:18:37,290 - INFO - ===== Pipeline started =====
+2025-08-24 23:18:37,291 - INFO - Starting data ingestion
+2025-08-24 23:18:37,292 - INFO - Starting data ingestion for employee attrition dataset
+2025-08-24 23:18:37,293 - ERROR - Pipeline failed: Error occurred in script: [C:\Users\chand\OneDrive\Desktop\MLproject\src\components\data_ingestion.py] at line: [27] -> Input data file not found: C:\Users\chand\OneDrive\Desktop\MLproject\rawdata\employee_attrition.csv
+2025-08-24 23:23:21,957 - INFO - Logging system initialized
+2025-08-24 23:23:22,643 - INFO - ===== Pipeline started =====
+2025-08-24 23:23:22,644 - INFO - Starting data ingestion
+2025-08-24 23:23:22,644 - INFO - Entered data ingestion method
+2025-08-24 23:23:22,671 - INFO - Dataset read successfully
+2025-08-24 23:23:22,724 - INFO - Raw data saved successfully
+2025-08-24 23:23:22,777 - INFO - Train-test split completed
+2025-08-24 23:23:22,779 - INFO - Train data saved at: artifacts\train.csv
+2025-08-24 23:23:22,779 - INFO - Test data saved at: artifacts\test.csv
+2025-08-24 23:23:22,780 - INFO - Starting data transformation
+2025-08-24 23:23:22,844 - INFO - Train and test data read successfully
+2025-08-24 23:23:22,900 - INFO - Object saved at: artifacts\preprocessor.pkl
+2025-08-24 23:23:22,901 - INFO - Data transformation completed successfully
+2025-08-24 23:23:22,902 - INFO - Data transformed successfully. Preprocessor saved at: artifacts\preprocessor.pkl
+2025-08-24 23:23:22,902 - INFO - Starting model training
+2025-08-24 23:23:23,368 - INFO - Random Forest F1 Score: 0.0
+2025-08-24 23:23:23,384 - INFO - Decision Tree F1 Score: 0.13043478260869565
+2025-08-24 23:23:23,861 - INFO - Gradient Boosting F1 Score: 0.11320754716981132
+2025-08-24 23:23:23,885 - INFO - Logistic Regression F1 Score: 0.0
+2025-08-24 23:23:24,037 - INFO - XGBClassifier F1 Score: 0.03389830508474576
+2025-08-24 23:23:28,160 - INFO - CatBoosting Classifier F1 Score: 0.0
+2025-08-24 23:23:28,368 - INFO - AdaBoost Classifier F1 Score: 0.0
+2025-08-24 23:23:28,368 - INFO - Best model: Decision Tree with F1 Score: 0.13043478260869565
+2025-08-24 23:23:28,386 - INFO - Object saved at: artifacts\model.pkl
+2025-08-24 23:23:28,391 - INFO - Best model: Decision Tree with F1 Score: 0.13043478260869565
+2025-08-24 23:23:28,392 - INFO - ===== Pipeline completed successfully =====
+2025-08-24 23:32:28,742 - INFO - Logging system initialized
+2025-08-24 23:32:29,319 - INFO - ===== Pipeline started =====
+2025-08-24 23:32:29,320 - INFO - Starting data ingestion
+2025-08-24 23:32:29,320 - INFO - Entered data ingestion method
+2025-08-24 23:32:29,343 - INFO - Dataset read successfully
+2025-08-24 23:32:29,363 - INFO - Raw data saved successfully
+2025-08-24 23:32:29,410 - INFO - Train-test split completed
+2025-08-24 23:32:29,411 - INFO - Train data saved at: artifacts\train.csv
+2025-08-24 23:32:29,412 - INFO - Test data saved at: artifacts\test.csv
+2025-08-24 23:32:29,413 - INFO - Starting data transformation
+2025-08-24 23:32:29,479 - INFO - Train and test data read successfully
+2025-08-24 23:32:29,531 - INFO - Object saved at: artifacts\preprocessor.pkl
+2025-08-24 23:32:29,531 - INFO - Data transformation completed successfully
+2025-08-24 23:32:29,532 - INFO - Data transformed successfully. Preprocessor saved at: artifacts\preprocessor.pkl
+2025-08-24 23:32:29,533 - INFO - Starting model training
+2025-08-24 23:32:29,941 - INFO - Random Forest F1 Score: 0.0
+2025-08-24 23:32:29,955 - INFO - Decision Tree F1 Score: 0.12345679012345678
+2025-08-24 23:32:30,431 - INFO - Gradient Boosting F1 Score: 0.10526315789473684
+2025-08-24 23:32:30,454 - INFO - Logistic Regression F1 Score: 0.0
+2025-08-24 23:32:30,624 - INFO - XGBClassifier F1 Score: 0.13793103448275862
+2025-08-24 23:32:35,430 - INFO - CatBoosting Classifier F1 Score: 0.0
+2025-08-24 23:32:35,698 - INFO - AdaBoost Classifier F1 Score: 0.0
+2025-08-24 23:32:35,699 - INFO - Best model: XGBClassifier with F1 Score: 0.13793103448275862
+2025-08-24 23:32:35,982 - INFO - Object saved at: artifacts\model.pkl
+2025-08-24 23:32:35,993 - INFO - Best model: XGBClassifier with F1 Score: 0.13793103448275862
+2025-08-24 23:32:35,994 - INFO - ===== Pipeline completed successfully =====
+2025-08-25 20:18:22,068 - INFO - Logging system initialized
+2025-08-25 20:18:26,378 - INFO - ===== Pipeline started =====
+2025-08-25 20:18:26,379 - INFO - Starting data ingestion
+2025-08-25 20:18:26,380 - INFO - Entered data ingestion method
+2025-08-25 20:18:26,382 - ERROR - Pipeline failed: Error occurred in script: [C:\Users\chand\OneDrive\Desktop\MLproject\src\components\data_ingestion.py] at line: [31] -> Input data file not found: C:\Users\chand\OneDrive\Desktop\MLproject\rawdata\technova_attrition_dataset.csv
+2025-08-25 20:20:19,994 - INFO - Logging system initialized
+2025-08-25 20:20:20,668 - INFO - ===== Pipeline started =====
+2025-08-25 20:20:20,669 - INFO - Starting data ingestion
+2025-08-25 20:20:20,670 - INFO - Entered data ingestion method
+2025-08-25 20:20:20,697 - INFO - Dataset read successfully
+2025-08-25 20:20:20,720 - INFO - Raw data saved successfully
+2025-08-25 20:20:20,760 - INFO - Train-test split completed
+2025-08-25 20:20:20,761 - INFO - Train data saved at: artifacts\train.csv
+2025-08-25 20:20:20,762 - INFO - Test data saved at: artifacts\test.csv
+2025-08-25 20:20:20,763 - INFO - Starting data transformation
+2025-08-25 20:20:20,821 - INFO - Train and test data read successfully
+2025-08-25 20:20:20,823 - ERROR - Pipeline failed: Error occurred in script: [C:\Users\chand\OneDrive\Desktop\MLproject\src\components\data_transformation.py] at line: [63] -> 'Attrition'
+2025-08-25 20:22:17,884 - INFO - Logging system initialized
+2025-08-25 20:22:18,528 - INFO - ===== Pipeline started =====
+2025-08-25 20:22:18,529 - INFO - Starting data ingestion
+2025-08-25 20:22:18,530 - INFO - Entered data ingestion method
+2025-08-25 20:22:18,551 - INFO - Dataset read successfully
+2025-08-25 20:22:18,570 - INFO - Raw data saved successfully
+2025-08-25 20:22:18,606 - INFO - Train-test split completed
+2025-08-25 20:22:18,607 - INFO - Train data saved at: artifacts\train.csv
+2025-08-25 20:22:18,608 - INFO - Test data saved at: artifacts\test.csv
+2025-08-25 20:22:18,609 - INFO - Starting data transformation
+2025-08-25 20:22:18,665 - INFO - Train and test data read successfully
+2025-08-25 20:22:18,667 - ERROR - Pipeline failed: Error occurred in script: [C:\Users\chand\OneDrive\Desktop\MLproject\src\components\data_transformation.py] at line: [61] -> 'NoneType' object has no attribute 'tb_lineno'
+2025-08-25 20:22:59,538 - INFO - Logging system initialized
+2025-08-25 20:22:59,893 - INFO - ===== Pipeline started =====
+2025-08-25 20:22:59,894 - INFO - Starting data ingestion
+2025-08-25 20:22:59,895 - INFO - Entered data ingestion method
+2025-08-25 20:22:59,905 - INFO - Dataset read successfully
+2025-08-25 20:22:59,922 - INFO - Raw data saved successfully
+2025-08-25 20:22:59,943 - INFO - Train-test split completed
+2025-08-25 20:22:59,944 - INFO - Train data saved at: artifacts\train.csv
+2025-08-25 20:22:59,947 - INFO - Test data saved at: artifacts\test.csv
+2025-08-25 20:22:59,948 - INFO - Starting data transformation
+2025-08-25 20:22:59,992 - INFO - Train and test data read successfully
+2025-08-25 20:22:59,993 - ERROR - Pipeline failed: Target column 'Attrition' not found in train/test data
+2025-08-25 20:24:11,921 - INFO - Logging system initialized
+2025-08-25 20:24:12,551 - INFO - ===== Pipeline started =====
+2025-08-25 20:24:12,552 - INFO - Starting data ingestion
+2025-08-25 20:24:12,553 - INFO - Entered data ingestion method
+2025-08-25 20:24:12,575 - INFO - Dataset read successfully
+2025-08-25 20:24:12,591 - INFO - Raw data saved successfully
+2025-08-25 20:24:12,620 - INFO - Train-test split completed
+2025-08-25 20:24:12,622 - INFO - Train data saved at: artifacts\train.csv
+2025-08-25 20:24:12,623 - INFO - Test data saved at: artifacts\test.csv
+2025-08-25 20:24:12,623 - INFO - Starting data transformation
+2025-08-25 20:24:12,666 - INFO - Train and test data read successfully
+2025-08-25 20:24:12,676 - INFO - Auto-detected target column: overtime
+2025-08-25 20:24:12,686 - ERROR - Pipeline failed: A given column is not a column of the dataframe
+2025-08-25 20:28:27,396 - INFO - ===== Pipeline started =====
+2025-08-25 20:28:27,397 - INFO - Entered data ingestion method
+2025-08-25 20:28:27,428 - INFO - Dataset read successfully
+2025-08-25 20:28:27,462 - INFO - Train data saved at: artifacts\train.csv
+2025-08-25 20:28:27,462 - INFO - Test data saved at: artifacts\test.csv
+2025-08-25 20:28:27,516 - INFO - Train and test data read successfully
+2025-08-25 20:28:27,525 - INFO - Auto-detected target column: overtime
+2025-08-25 20:28:27,542 - INFO - Data transformation completed successfully
+2025-08-25 20:28:27,544 - INFO - Starting model training
+2025-08-25 20:28:27,546 - ERROR - Pipeline failed: Found array with 0 feature(s) (shape=(800, 0)) while a minimum of 1 is required by RandomForestClassifier.

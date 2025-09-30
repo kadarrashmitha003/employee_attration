@@ -1,0 +1,154 @@
+2025-08-24 20:41:13,674 - INFO - Entered the data ingestion method or component
+2025-08-24 20:41:13,698 - INFO - Read the dataset as dataframe
+2025-08-24 20:41:13,718 - INFO - Train test split initiated
+2025-08-24 20:41:13,747 - INFO - Ingestion of the data is completed
+2025-08-24 20:41:13,819 - INFO - Read train and test data completed
+2025-08-24 20:41:13,819 - INFO - Obtaining preprocessing object
+2025-08-24 20:41:13,819 - INFO - Categorical columns: ['Gender', 'Department', 'JobRole', 'BusinessTravel', 'EducationField', 'OverTime']
+2025-08-24 20:41:13,819 - INFO - Numerical columns: ['Age', 'DistanceFromHome', 'MonthlyIncome', 'JobSatisfaction', 'EnvironmentSatisfaction', 'WorkLifeBalance', 'TotalWorkingYears', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsWithCurrManager', 'YearsSinceLastPromotion', 'TrainingTimesLastYear', 'PercentSalaryHike', 'StockOptionLevel']
+2025-08-24 20:41:13,827 - INFO - Applying preprocessing object on train and test dataframes.
+2025-08-24 20:41:13,878 - INFO - Saved preprocessing object.
+2025-08-24 20:41:13,885 - INFO - Object saved at artifacts\preprocessor.pkl
+2025-08-24 20:41:13,886 - INFO - Split training and test input data
+2025-08-24 20:41:13,887 - INFO - Training model: Random Forest
+2025-08-24 20:41:31,314 - INFO - Random Forest \u2192 Train R2: -0.23427297340340836, Test R2: -0.29032258064516103
+2025-08-24 20:41:31,315 - INFO - Training model: Decision Tree
+2025-08-24 20:41:31,480 - INFO - Decision Tree \u2192 Train R2: -0.2183468705207836, Test R2: -0.3189964157706091
+2025-08-24 20:41:31,480 - INFO - Training model: Gradient Boosting
+2025-08-24 20:41:34,355 - INFO - Gradient Boosting \u2192 Train R2: -0.23427297340340836, Test R2: -0.29032258064516103
+2025-08-24 20:41:34,355 - INFO - Training model: Logistic Regression
+2025-08-24 20:41:34,504 - INFO - Logistic Regression \u2192 Train R2: -0.23427297340340836, Test R2: -0.29032258064516103
+2025-08-24 20:41:34,504 - INFO - Training model: XGBClassifier
+2025-08-24 20:41:37,615 - INFO - XGBClassifier \u2192 Train R2: -0.24223602484472062, Test R2: -0.29032258064516103
+2025-08-24 20:41:37,616 - INFO - Training model: CatBoost Classifier
+2025-08-24 20:41:50,983 - INFO - CatBoost Classifier \u2192 Train R2: 0.21165790731008116, Test R2: -0.29032258064516103
+2025-08-24 20:41:50,983 - INFO - Training model: AdaBoost Classifier
+2025-08-24 20:41:55,206 - INFO - AdaBoost Classifier \u2192 Train R2: -0.24223602484472062, Test R2: -0.29032258064516103
+2025-08-24 20:45:24,772 - INFO - Entered the data ingestion method or component
+2025-08-24 20:45:24,781 - INFO - Read the dataset as dataframe
+2025-08-24 20:45:24,799 - INFO - Train test split initiated
+2025-08-24 20:45:24,819 - INFO - Ingestion of the data is completed
+2025-08-24 20:45:24,865 - INFO - Read train and test data completed
+2025-08-24 20:45:24,866 - INFO - Obtaining preprocessing object
+2025-08-24 20:45:24,866 - INFO - Categorical columns: ['Gender', 'Department', 'JobRole', 'BusinessTravel', 'EducationField', 'OverTime']
+2025-08-24 20:45:24,866 - INFO - Numerical columns: ['Age', 'DistanceFromHome', 'MonthlyIncome', 'JobSatisfaction', 'EnvironmentSatisfaction', 'WorkLifeBalance', 'TotalWorkingYears', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsWithCurrManager', 'YearsSinceLastPromotion', 'TrainingTimesLastYear', 'PercentSalaryHike', 'StockOptionLevel']
+2025-08-24 20:45:24,869 - INFO - Applying preprocessing object on train and test dataframes.
+2025-08-24 20:45:24,896 - INFO - Saved preprocessing object.
+2025-08-24 20:45:24,899 - INFO - Object saved at artifacts\preprocessor.pkl
+2025-08-24 20:45:24,900 - INFO - Split training and test input data
+2025-08-24 20:45:24,900 - INFO - Training model: Random Forest
+2025-08-24 20:45:37,797 - INFO - Random Forest \u2192 Train R2: -0.23427297340340836, Test R2: -0.29032258064516103
+2025-08-24 20:45:37,798 - INFO - Training model: Decision Tree
+2025-08-24 20:45:37,960 - INFO - Decision Tree \u2192 Train R2: -0.2183468705207836, Test R2: -0.3189964157706091
+2025-08-24 20:45:37,960 - INFO - Training model: Gradient Boosting
+2025-08-24 20:45:40,995 - INFO - Gradient Boosting \u2192 Train R2: -0.23427297340340836, Test R2: -0.29032258064516103
+2025-08-24 20:45:40,995 - INFO - Training model: Logistic Regression
+2025-08-24 20:45:41,148 - INFO - Logistic Regression \u2192 Train R2: -0.23427297340340836, Test R2: -0.29032258064516103
+2025-08-24 20:45:41,148 - INFO - Training model: XGBClassifier
+2025-08-24 20:45:43,573 - INFO - XGBClassifier \u2192 Train R2: -0.24223602484472062, Test R2: -0.29032258064516103
+2025-08-24 20:45:43,573 - INFO - Training model: CatBoost Classifier
+2025-08-24 20:45:54,835 - INFO - CatBoost Classifier \u2192 Train R2: 0.21165790731008116, Test R2: -0.29032258064516103
+2025-08-24 20:45:54,836 - INFO - Training model: AdaBoost Classifier
+2025-08-24 20:45:58,442 - INFO - AdaBoost Classifier \u2192 Train R2: -0.24223602484472062, Test R2: -0.29032258064516103
+2025-08-24 20:51:21,561 - INFO - Entered the data ingestion method or component
+2025-08-24 20:51:21,575 - INFO - Read the dataset as dataframe
+2025-08-24 20:51:21,593 - INFO - Train test split initiated
+2025-08-24 20:51:21,621 - INFO - Ingestion of the data is completed
+2025-08-24 20:51:21,670 - INFO - Read train and test data completed
+2025-08-24 20:51:21,670 - INFO - Obtaining preprocessing object
+2025-08-24 20:51:21,671 - INFO - Categorical columns: ['Gender', 'Department', 'JobRole', 'BusinessTravel', 'EducationField', 'OverTime']
+2025-08-24 20:51:21,672 - INFO - Numerical columns: ['Age', 'DistanceFromHome', 'MonthlyIncome', 'JobSatisfaction', 'EnvironmentSatisfaction', 'WorkLifeBalance', 'TotalWorkingYears', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsWithCurrManager', 'YearsSinceLastPromotion', 'TrainingTimesLastYear', 'PercentSalaryHike', 'StockOptionLevel']
+2025-08-24 20:51:21,677 - INFO - Applying preprocessing object on train and test dataframes.
+2025-08-24 20:51:21,710 - INFO - Saved preprocessing object.
+2025-08-24 20:51:21,713 - INFO - Object saved at artifacts\preprocessor.pkl
+2025-08-24 20:51:21,714 - INFO - Split training and test input data
+2025-08-24 20:51:21,716 - INFO - Training model: Random Forest
+2025-08-24 20:51:35,101 - INFO - Random Forest \u2192 Train R2: 0.8508881679631509, Test R2: -0.08737609206989227
+2025-08-24 20:51:35,102 - INFO - Training model: Decision Tree
+2025-08-24 20:51:35,355 - INFO - Decision Tree \u2192 Train R2: 0.6335288161895427, Test R2: -0.6612886351707064
+2025-08-24 20:51:35,356 - INFO - Training model: Gradient Boosting
+2025-08-24 20:51:53,921 - INFO - Gradient Boosting \u2192 Train R2: 0.041129683718336696, Test R2: -0.016736108122834548
+2025-08-24 20:51:53,921 - INFO - Training model: Linear Regression
+2025-08-24 20:51:53,961 - INFO - Linear Regression \u2192 Train R2: 0.03605037639233766, Test R2: -0.05083316154452566
+2025-08-24 20:51:53,962 - INFO - Training model: XGBRegressor
+2025-08-24 20:51:56,367 - INFO - XGBRegressor \u2192 Train R2: 0.07309673907136671, Test R2: -0.013346209711111667
+2025-08-24 20:51:56,368 - INFO - Training model: CatBoosting Regressor
+2025-08-24 20:52:21,332 - INFO - CatBoosting Regressor \u2192 Train R2: 0.09803433195004696, Test R2: -0.011893504621820927
+2025-08-24 20:52:21,332 - INFO - Training model: AdaBoost Regressor
+2025-08-24 20:52:26,005 - INFO - AdaBoost Regressor \u2192 Train R2: 0.051479271016168004, Test R2: -0.03157953734378638
+2025-08-24 20:54:47,318 - INFO - Entered the data ingestion method or component
+2025-08-24 20:54:47,334 - INFO - Read the dataset as dataframe
+2025-08-24 20:54:47,351 - INFO - Train test split initiated
+2025-08-24 20:54:47,380 - INFO - Ingestion of the data is completed
+2025-08-24 20:54:47,472 - INFO - Read train and test data completed
+2025-08-24 20:54:47,472 - INFO - Obtaining preprocessing object
+2025-08-24 20:54:47,473 - INFO - Categorical columns: ['Gender', 'Department', 'JobRole', 'BusinessTravel', 'EducationField', 'OverTime']
+2025-08-24 20:54:47,473 - INFO - Numerical columns: ['Age', 'DistanceFromHome', 'MonthlyIncome', 'JobSatisfaction', 'EnvironmentSatisfaction', 'WorkLifeBalance', 'TotalWorkingYears', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsWithCurrManager', 'YearsSinceLastPromotion', 'TrainingTimesLastYear', 'PercentSalaryHike', 'StockOptionLevel']
+2025-08-24 20:54:47,480 - INFO - Applying preprocessing object on train and test dataframes.
+2025-08-24 20:54:47,525 - INFO - Saved preprocessing object.
+2025-08-24 20:54:47,529 - INFO - Object saved at artifacts\preprocessor.pkl
+2025-08-24 20:54:47,529 - INFO - Split training and test input data
+2025-08-24 20:54:47,532 - INFO - Training model: Random Forest
+2025-08-24 20:55:05,451 - INFO - Random Forest \u2192 Train R2: 0.8543478231707999, Test R2: -0.12796950254816286
+2025-08-24 20:55:05,452 - INFO - Training model: Decision Tree
+2025-08-24 20:55:05,724 - INFO - Decision Tree \u2192 Train R2: 0.6335288161895427, Test R2: -0.6272958751515254
+2025-08-24 20:55:05,725 - INFO - Training model: Gradient Boosting
+2025-08-24 20:55:30,476 - INFO - Gradient Boosting \u2192 Train R2: 0.04611287941462405, Test R2: -0.028864152100401164
+2025-08-24 20:55:30,477 - INFO - Training model: Linear Regression
+2025-08-24 20:55:30,529 - INFO - Linear Regression \u2192 Train R2: 0.03605037639233766, Test R2: -0.05083316154452566
+2025-08-24 20:55:30,529 - INFO - Training model: XGBRegressor
+2025-08-24 20:55:33,201 - INFO - XGBRegressor \u2192 Train R2: 0.07309673907136671, Test R2: -0.013346209711111667
+2025-08-24 20:55:33,202 - INFO - Training model: CatBoosting Regressor
+2025-08-24 20:55:58,234 - INFO - CatBoosting Regressor \u2192 Train R2: 0.09803433195004696, Test R2: -0.011893504621820927
+2025-08-24 20:55:58,235 - INFO - Training model: AdaBoost Regressor
+2025-08-24 20:56:04,162 - INFO - AdaBoost Regressor \u2192 Train R2: 0.06747165348034456, Test R2: -0.020529337028499572
+2025-08-24 21:01:11,538 - INFO - Entered the data ingestion method
+2025-08-24 21:01:11,551 - INFO - Dataset read successfully
+2025-08-24 21:01:11,571 - INFO - Train-test split initiated
+2025-08-24 21:01:11,601 - INFO - Data ingestion completed
+2025-08-24 21:04:26,468 - INFO - Entered the data ingestion method
+2025-08-24 21:04:26,480 - INFO - Dataset read successfully
+2025-08-24 21:04:26,499 - INFO - Train-test split initiated
+2025-08-24 21:04:26,524 - INFO - Data ingestion completed
+2025-08-24 21:10:40,532 - INFO - Starting data ingestion
+2025-08-24 21:10:40,547 - INFO - Dataset read into DataFrame
+2025-08-24 21:10:40,586 - INFO - Data ingestion completed successfully
+2025-08-24 21:10:40,643 - ERROR - Error in data ingestion pipeline: Exception occurred in script: C:\Users\chand\OneDrive\Desktop\MLproject\src\components\data_transformation.py at line: 57 | Detail: "['math_score'] not found in axis"
+2025-08-24 21:13:34,849 - INFO - Starting data ingestion...
+2025-08-24 21:13:34,859 - INFO - Dataset read successfully
+2025-08-24 21:13:34,896 - INFO - Data ingestion completed
+2025-08-24 21:15:49,846 - INFO - Starting data ingestion
+2025-08-24 21:15:49,857 - INFO - Dataset read successfully
+2025-08-24 21:15:49,895 - INFO - Train-test split done
+2025-08-24 21:15:49,896 - INFO - Train data: artifacts\train.csv
+2025-08-24 21:15:49,896 - INFO - Test data: artifacts\test.csv
+2025-08-24 21:15:49,897 - INFO - Starting data transformation
+2025-08-24 21:17:42,295 - INFO - Starting data ingestion
+2025-08-24 21:17:42,327 - INFO - Dataset read successfully
+2025-08-24 21:17:42,364 - INFO - Train-test split done
+2025-08-24 21:17:42,365 - INFO - Train data: artifacts\train.csv
+2025-08-24 21:17:42,365 - INFO - Test data: artifacts\test.csv
+2025-08-24 21:17:42,366 - INFO - Reading train and test data
+2025-08-24 21:17:42,409 - INFO - Detected target column: Attrition
+2025-08-24 21:17:42,418 - INFO - Numerical columns: ['EmployeeID', 'Age', 'DistanceFromHome', 'Education', 'JobLevel', 'MonthlyIncome', 'JobSatisfaction', 'EnvironmentSatisfaction', 'WorkLifeBalance', 'TotalWorkingYears', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsWithCurrManager', 'YearsSinceLastPromotion', 'TrainingTimesLastYear', 'PercentSalaryHike', 'StockOptionLevel']
+2025-08-24 21:17:42,418 - INFO - Categorical columns: ['Gender', 'Department', 'JobRole', 'BusinessTravel', 'EducationField', 'OverTime']
+2025-08-24 21:17:42,456 - INFO - Preprocessor saved at artifacts\preprocessor.pkl
+2025-08-24 21:49:18,197 - INFO - Starting data ingestion
+2025-08-24 21:49:18,218 - INFO - Dataset read successfully
+2025-08-24 21:49:18,269 - INFO - Train-test split done
+2025-08-24 21:49:18,270 - INFO - Train data: artifacts\train.csv
+2025-08-24 21:49:18,271 - INFO - Test data: artifacts\test.csv
+2025-08-24 21:49:18,271 - INFO - Reading train and test data
+2025-08-24 21:49:18,316 - INFO - Detected target column: Attrition
+2025-08-24 21:49:18,324 - INFO - Numerical columns: ['EmployeeID', 'Age', 'DistanceFromHome', 'Education', 'JobLevel', 'MonthlyIncome', 'JobSatisfaction', 'EnvironmentSatisfaction', 'WorkLifeBalance', 'TotalWorkingYears', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsWithCurrManager', 'YearsSinceLastPromotion', 'TrainingTimesLastYear', 'PercentSalaryHike', 'StockOptionLevel']
+2025-08-24 21:49:18,325 - INFO - Categorical columns: ['Gender', 'Department', 'JobRole', 'BusinessTravel', 'EducationField', 'OverTime']
+2025-08-24 21:49:18,355 - INFO - Preprocessor saved at artifacts\preprocessor.pkl
+2025-08-24 21:51:44,323 - INFO - Reading raw dataset
+2025-08-24 21:51:44,379 - INFO - Data ingestion completed
+2025-08-24 21:56:12,727 - INFO - Starting data ingestion
+2025-08-24 21:56:12,809 - INFO - Saved train to artifacts\train.csv and test to artifacts\test.csv
+2025-08-24 21:56:12,811 - INFO - Starting data transformation
+2025-08-24 21:56:12,875 - INFO - Detected target column: Attrition
+2025-08-24 21:56:12,886 - INFO - Numeric cols: ['EmployeeID', 'Age', 'DistanceFromHome', 'Education', 'JobLevel', 'MonthlyIncome', 'JobSatisfaction', 'EnvironmentSatisfaction', 'WorkLifeBalance', 'TotalWorkingYears', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsWithCurrManager', 'YearsSinceLastPromotion', 'TrainingTimesLastYear', 'PercentSalaryHike', 'StockOptionLevel']
+2025-08-24 21:56:12,887 - INFO - Categorical cols: ['Gender', 'Department', 'JobRole', 'BusinessTravel', 'EducationField', 'OverTime']
+2025-08-24 21:56:12,888 - ERROR - Pipeline failed: Exception occurred in script: C:\Users\chand\OneDrive\Desktop\MLproject\src\components\data_transformation.py at line: 72 | Detail: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
